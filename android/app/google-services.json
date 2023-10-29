@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827922499179",
+    "project_id": "shootinglogflutter-d9e64",
+    "storage_bucket": "shootinglogflutter-d9e64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827922499179:android:cbaa84bd1a2c90ef3e132e",
+        "android_client_info": {
+          "package_name": "com.example.shooting_log_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3tNtNWSzBPrF_w0FMYDOHkvoOz0LbN7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
