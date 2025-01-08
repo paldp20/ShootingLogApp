@@ -1,16 +1,40 @@
-# shooting_log_flutter
+# ShootingLogApp
 
-A Shooting log Flutter project.
+ShootingLogApp is a mobile application developed using Flutter that allows users to record and manage their shooting activities. It provides features to log shooting sessions, track ammunition usage, and analyze performance over time.
+
+## Features
+
+- **Log Shooting Sessions**: Record details of each shooting session, including date, location, firearm used, ammunition, and notes. You can delete or madify the record anytime.
+- **Ammunition Tracking**: Keep track of ammunition inventory and usage across sessions.
+- **Performance Analysis**: Review past sessions to analyze performance and identify areas for improvement.
+- **Multi-Platform Support**: Available on Android, iOS, Windows, macOS, and Linux, thanks to Flutter's cross-platform capabilities.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, ensure you have Flutter installed. Then, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the repository**:
+```
+git clone https://github.com/paldp20/ShootingLogApp.git cd ShootingLogApp
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Install dependencies**:
+```
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. **Run the application**:
+```
+flutter run
+```
+
+## Project Structure
+
+- `lib/`: Contains the main application code.
+- `assets/`: Includes images, fonts, and other static resources.
+- `test/`: Houses unit and widget tests.
+- `android/`, `ios/`, `web/`, `windows/`, `macos/`, `linux/`: Platform-specific configurations and code.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
